@@ -30,9 +30,11 @@
 	int count = phoneDao.personInsert(personVo);
 	System.out.println(count);
 	
-	//(리다이렉트코드)
-	//동일한 페이지를 열어야할 때
-	//처리 후, 주소창에 http://localhost:8088/phonebook1/list.jsp 엔터쳐줘 이 작업
+	// 리다이렉트코드
+	// 동일한 페이지를 열어야할 때
+	// 처리 후, 주소창에 http://localhost:8088/phonebook1/list.jsp 엔터쳐줘 이 작업
+	// 응답은 리스트로 리다이렉트 시킨다.
+	// list.jsp로 다시 요청한다.
 	response.sendRedirect("./list.jsp");
 	
 	
