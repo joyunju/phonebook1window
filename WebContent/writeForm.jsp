@@ -15,6 +15,11 @@
 	<br>
 	아래 항목을 기입하고 "등록" 버튼을 클릭하세요.
 	</p>
+	<!-- 
+	method="get" 방식은 주소창에 다 보이고
+	method="post" 방식은 주소창에 안보이는데 사용할 때의 차이를 알아야한다
+	-->
+	<!-- <form action="./insert.jsp" method="post"> -->
 	<form action="./insert.jsp" method="get">
 		이름(name) : <input type="text" name="name" value="">
 		<br>

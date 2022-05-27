@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
     
 <!-- ■Java 클래스를 import하는 JSP 코드 -->	
-<%@ page import="com.javaex.Vo.PersonVo"%>
+<%@ page import="com.javaex.vo.PersonVo"%>
 <%@ page import="com.javaex.dao.PhoneDao"%>
 
 <%@ page import="java.util.List"%>
